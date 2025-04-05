@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d8c7b13-2118-4ae4-a506-f5c8e5ae0625" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/lab5/CalculadoraSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/lab5/CargoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/lab5/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/edu/lab5/CalculadoraSalarioTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ugV7lH8iIDLaSOCDsiCUp6t0Np" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EmpregadoTest.executor": "Run",
+    "Application.InvoiceTest.executor": "Run",
+    "JUnit.CalculadoraSalarioTest.executor": "Coverage",
+    "JUnit.CalculadoraSalarioTest.validarCalculoSalarioDesenvolvedorInferior3000.executor": "Run",
+    "JUnit.EmpregadoTest.executor": "Coverage",
+    "JUnit.EmpregadoTest.validarAumentoDezPorcentoNoSalarioMensal.executor": "Run",
+    "JUnit.EmpregadoTest.validarConfiguracaoSalario.executor": "Run",
+    "JUnit.EmpregadoTest.validarConfiguracaoSalarioIgualZero.executor": "Run",
+    "JUnit.EmpregadoTest.validarConfiguracaoSalarioInferiorZero.executor": "Run",
+    "JUnit.EmpregadoTest.validarConfiguracaoSalarioSuperiorZero.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lucasnadalete/Downloads/TDDPractice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3678161",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.edu.lab5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculadoraSalarioTest">
+    <configuration name="CalculadoraSalarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDPractice" />
+      <option name="PACKAGE_NAME" value="br.edu.lab5" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.lab5.CalculadoraSalarioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraSalarioTest.validarCalculoSalarioDesenvolvedorInferior3000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDPractice" />
+      <option name="PACKAGE_NAME" value="br.edu.lab5" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.lab5.CalculadoraSalarioTest" />
+      <option name="METHOD_NAME" value="validarCalculoSalarioDesenvolvedorInferior3000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmpregadoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpregadoTest.validarConfiguracaoSalario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmpregadoTest" />
+      <option name="METHOD_NAME" value="validarConfiguracaoSalario(java.lang.String,java.lang.String,java.lang.Double,java.lang.Double,java.lang.Double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpregadoTest.validarConfiguracaoSalarioInferiorZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmpregadoTest" />
+      <option name="METHOD_NAME" value="validarConfiguracaoSalarioInferiorZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculadoraSalarioTest" />
+        <item itemvalue="JUnit.CalculadoraSalarioTest.validarCalculoSalarioDesenvolvedorInferior3000" />
+        <item itemvalue="JUnit.EmpregadoTest" />
+        <item itemvalue="JUnit.EmpregadoTest.validarConfiguracaoSalarioInferiorZero" />
+        <item itemvalue="JUnit.EmpregadoTest.validarConfiguracaoSalario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d8c7b13-2118-4ae4-a506-f5c8e5ae0625" name="Changes" comment="" />
+      <created>1742670040977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742670040977</updated>
+      <workItem from="1742670042398" duration="3967000" />
+      <workItem from="1742851579272" duration="48000" />
+      <workItem from="1742851653732" duration="4861000" />
+      <workItem from="1742861572243" duration="26000" />
+      <workItem from="1742937921359" duration="2272000" />
+      <workItem from="1743447003678" duration="198000" />
+      <workItem from="1743447394620" duration="4416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exFixacaoJavaIntro$EmpregadoTest.ic" NAME="EmpregadoTest Coverage Results" MODIFIED="1742856829504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/TDDPractice$CalculadoraSalarioTest.ic" NAME="CalculadoraSalarioTest Coverage Results" MODIFIED="1743464315401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

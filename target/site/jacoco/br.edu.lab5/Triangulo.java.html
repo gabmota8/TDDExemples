@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Triangulo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TDDPractice</a> &gt; <a href="index.source.html" class="el_package">br.edu.lab5</a> &gt; <span class="el_source">Triangulo.java</span></div><h1>Triangulo.java</h1><pre class="source lang-java linenums">package br.edu.lab5;
+
+public class Triangulo {
+    private Triangulo() {
+    }
+    
+
+    /**
+     * Determina o tipo de triângulo dado três lados.
+     * 
+     * @param x lado X
+     * @param y lado Y
+     * @param z lado Z
+     * @return uma String indicando &quot;Equilátero&quot;, &quot;Isósceles&quot; ou &quot;Escaleno&quot;
+     * @throws IllegalArgumentException se algum lado for &lt;= 0 ou se não obedecer a condição 
+     *         de que a soma de dois lados deve ser maior que o terceiro lado.
+     */
+    public static String tipoTriangulo(int x, int y, int z) {
+        
+<span class="fc bfc" id="L20" title="All 6 branches covered.">        if (x &lt;= 0 || y &lt;= 0 || z &lt;= 0) {</span>
+<span class="fc" id="L21">            throw new IllegalArgumentException(&quot;Os lados devem ter valores maiores que zero.&quot;);</span>
+        }
+        
+<span class="fc bfc" id="L24" title="All 6 branches covered.">        if ((x + y) &lt;= z || (x + z) &lt;= y || (y + z) &lt;= x) {</span>
+<span class="fc" id="L25">            throw new IllegalArgumentException(&quot;A soma de dois lados deve ser maior que o terceiro lado.&quot;);</span>
+        }
+        
+<span class="fc bfc" id="L28" title="All 4 branches covered.">        if (x == y &amp;&amp; y == z) {</span>
+<span class="fc" id="L29">            return &quot;Equilátero&quot;;</span>
+        }
+
+<span class="fc bfc" id="L32" title="All 6 branches covered.">        if (x == y || x == z || y == z) {</span>
+<span class="fc" id="L33">            return &quot;Isósceles&quot;;</span>
+        }
+    
+<span class="fc" id="L36">        return &quot;Escaleno&quot;;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
