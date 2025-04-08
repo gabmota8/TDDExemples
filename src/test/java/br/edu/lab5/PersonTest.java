@@ -1,11 +1,10 @@
 package br.edu.lab5;
 
 import org.junit.jupiter.api.Test;
-
 import java.util.List;
 import java.util.ArrayList;
-
 import static org.junit.jupiter.api.Assertions.*;
+
 
 public class PersonTest {
 
@@ -116,5 +115,78 @@ public class PersonTest {
 
         assertTrue(errors.stream().anyMatch(e -> e.contains("Formato de email inválido")));
     }
+   
+    
+    @Test
+    void emailIsValid_WithValidFormat_ReturnsTrue() {
+        Email email = new Email(1, "test@example.com");
+        assertTrue(email.isValid());
+    }
 
+    @Test
+    void emailIsValid_WithNullName_ReturnsFalse() {
+        Email email = new Email(1, null);
+        assertFalse(email.isValid());
+    }
+
+    @Test
+    void emailIsValid_WithEmptyName_ReturnsFalse() {
+        Email email = new Email(1, "");
+        assertFalse(email.isValid());
+    }
+
+    @Test
+    void emailIsValid_WithWhitespaceName_ReturnsFalse() {
+        Email email = new Email(1, "   ");
+        assertFalse(email.isValid());
+    }
+
+    @Test
+    void emailIsValid_WithInvalidFormat_ReturnsFalse() {
+        Email email = new Email(1, "not-an-email");
+        assertFalse(email.isValid());
+    }
+
+    
+
+    @Test
+    void daoGetCount_WhenEmpty_ReturnsZero() {
+        PersonDAO dao = new PersonDAO();
+        assertEquals(0, dao.getCount());
+    }
+
+    @Test
+    void daoGetCount_AfterAddingPersons_ReturnsCorrectNumber() {
+        PersonDAO dao = new PersonDAO();
+        dao.save(new Person(1, "Alice", 25, List.of(new Email(1, "alice@test.com"))));
+        dao.save(new Person(2, "Bob", 30, List.of(new Email(2, "bob@test.com"))));
+        
+        assertEquals(2, dao.getCount());
+    }
+
+    @Test
+    void daoSave_WithNullPerson_ThrowsException() {
+        PersonDAO dao = new PersonDAO();
+        assertThrows(NullPointerException.class, () -> dao.save(null));
+    }
+
+    @Test
+    void daoGetPersons_ReturnsUnmodifiableList() {
+        PersonDAO dao = new PersonDAO();
+        List<Person> result = dao.getPersons();
+        
+        assertThrows(UnsupportedOperationException.class, () -> result.add(new Person(1, "Test", 20, List.of())));
+    }
+
+    @Test
+    void daoGetPersons_AfterSaving_ContainsAddedPerson() {
+        PersonDAO dao = new PersonDAO();
+        Person person = new Person(1, "Charlie", 35, List.of(new Email(1, "charlie@test.com")));
+        
+        dao.save(person);
+        List<Person> result = dao.getPersons();
+        
+        assertEquals(1, result.size());
+        assertEquals(person, result.get(0));
+    }
 }
